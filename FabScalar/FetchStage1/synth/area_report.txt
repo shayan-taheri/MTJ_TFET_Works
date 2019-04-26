@@ -1,0 +1,30 @@
+ 
+****************************************
+Report : area
+Design : FetchStage1
+Version: H-2013.03-SP5-3
+Date   : Mon Jun 27 15:17:13 2016
+****************************************
+
+Library(s) Used:
+
+    saed32rvt_tt1p05v25c (File: /lhome/shayan/Proc/models/saed32rvt_tt1p05v25c.db)
+
+Number of ports:                         1017
+Number of nets:                          9077
+Number of cells:                         8864
+Number of combinational cells:           7798
+Number of sequential cells:              1066
+Number of macros/black boxes:               0
+Number of buf/inv:                       3026
+Number of references:                       8
+
+Combinational area:              15078.363998
+Buf/Inv area:                     3845.198735
+Noncombinational area:            7043.855335
+Macro/Black Box area:                0.000000
+Net Interconnect area:            4990.391345
+
+Total cell area:                 22122.219334
+Total area:                      27112.610678
+1

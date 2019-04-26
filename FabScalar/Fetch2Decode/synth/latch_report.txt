@@ -1,0 +1,20 @@
+ 
+****************************************
+Report : register
+Design : Fetch2Decode
+Version: H-2013.03-SP5-3
+Date   : Wed Jun 22 12:39:41 2016
+****************************************
+
+Attributes:
+    b - black box (unknown)
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    u - contains unmapped logic
+
+Cell                      Reference       Library             Area  Attributes
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Total 0 cells                                             0.000000
+1

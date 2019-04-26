@@ -1,0 +1,30 @@
+ 
+****************************************
+Report : area
+Design : InstructionBuffer
+Version: H-2013.03-SP5-3
+Date   : Thu Jun 23 11:41:24 2016
+****************************************
+
+Library(s) Used:
+
+    saed32rvt_tt1p05v25c (File: /lhome/shayan/Proc/models/saed32rvt_tt1p05v25c.db)
+
+Number of ports:                         1530
+Number of nets:                           121
+Number of cells:                          105
+Number of combinational cells:            100
+Number of sequential cells:                 5
+Number of macros/black boxes:               0
+Number of buf/inv:                         14
+Number of references:                       7
+
+Combinational area:                248.298693
+Buf/Inv area:                       17.790080
+Noncombinational area:              33.038721
+Macro/Black Box area:                0.000000
+Net Interconnect area:              32.822680
+
+Total cell area:                   281.337414
+Total area:                        314.160094
+1

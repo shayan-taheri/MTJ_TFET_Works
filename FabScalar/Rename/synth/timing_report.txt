@@ -1,0 +1,72 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : Rename
+Version: H-2013.03-SP5-3
+Date   : Thu Jun 23 11:47:33 2016
+****************************************
+
+Operating Conditions: tt1p05v25c   Library: saed32rvt_tt1p05v25c
+Wire Load Model Mode: enclosed
+
+  Startpoint: commitValid2_i
+              (input port clocked by clk)
+  Endpoint: specfreelist/freeListCnt_reg_5_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  Rename             8000                  saed32rvt_tt1p05v25c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.20       0.20
+  input external delay                                    1.00       1.20 f
+  commitValid2_i (in)                                     0.00       1.20 f
+  specfreelist/U88/Y (XOR2X1_RVT)                         0.19       1.39 f
+  specfreelist/U87/Y (XOR2X1_RVT)                         0.22       1.61 f
+  specfreelist/U34/Y (XOR2X1_RVT)                         0.25       1.86 f
+  U1301/Y (AND2X1_RVT)                                    0.15       2.00 f
+  U1304/Y (OR2X1_RVT)                                     0.12       2.13 f
+  U1305/Y (AND2X1_RVT)                                    0.09       2.22 f
+  U1307/Y (OR2X1_RVT)                                     0.13       2.35 f
+  U1310/Y (OR2X1_RVT)                                     0.13       2.47 f
+  U1311/Y (AND2X1_RVT)                                    0.09       2.56 f
+  U1313/Y (OR2X1_RVT)                                     0.12       2.68 f
+  U1315/Y (AND2X1_RVT)                                    0.12       2.80 f
+  U1317/Y (AND2X1_RVT)                                    0.12       2.92 f
+  U1318/Y (XOR2X1_RVT)                                    0.21       3.13 f
+  U1298/Y (AND4X1_RVT)                                    0.12       3.25 f
+  U1299/Y (OR2X1_RVT)                                     0.16       3.41 f
+  specfreelist/U117/Y (AND2X1_RVT)                        0.14       3.55 f
+  specfreelist/U116/Y (OR2X1_RVT)                         0.16       3.71 f
+  U1276/Y (OR2X1_RVT)                                     0.16       3.87 f
+  U1278/Y (OR2X1_RVT)                                     0.13       4.00 f
+  U1281/Y (OR2X1_RVT)                                     0.13       4.13 f
+  U1282/Y (XOR2X1_RVT)                                    0.17       4.30 r
+  specfreelist/U136/Y (NAND2X1_RVT)                       0.06       4.35 f
+  specfreelist/U132/Y (AND4X1_RVT)                        0.10       4.45 f
+  U1159/Y (INVX1_RVT)                                     0.09       4.54 r
+  specfreelist/freeListCnt_reg_5_/D (DFFX1_RVT)           0.01       4.56 r
+  data arrival time                                                  4.56
+
+  clock clk (rise edge)                                   5.00       5.00
+  clock network delay (ideal)                             0.20       5.20
+  clock uncertainty                                      -0.30       4.90
+  specfreelist/freeListCnt_reg_5_/CLK (DFFX1_RVT)         0.00       4.90 r
+  library setup time                                     -0.05       4.85
+  data required time                                                 4.85
+  --------------------------------------------------------------------------
+  data required time                                                 4.85
+  data arrival time                                                 -4.56
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.30
+
+
+1

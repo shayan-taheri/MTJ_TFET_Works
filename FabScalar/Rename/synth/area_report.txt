@@ -1,0 +1,30 @@
+ 
+****************************************
+Report : area
+Design : Rename
+Version: H-2013.03-SP5-3
+Date   : Thu Jun 23 11:47:33 2016
+****************************************
+
+Library(s) Used:
+
+    saed32rvt_tt1p05v25c (File: /lhome/shayan/Proc/models/saed32rvt_tt1p05v25c.db)
+
+Number of ports:                         1183
+Number of nets:                          2218
+Number of cells:                         1590
+Number of combinational cells:           1577
+Number of sequential cells:                13
+Number of macros/black boxes:               0
+Number of buf/inv:                       1123
+Number of references:                       7
+
+Combinational area:               2618.953947
+Buf/Inv area:                     1427.018566
+Noncombinational area:              85.900675
+Macro/Black Box area:                0.000000
+Net Interconnect area:             403.806487
+
+Total cell area:                  2704.854621
+Total area:                       3108.661109
+1

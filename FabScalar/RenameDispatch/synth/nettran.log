@@ -1,0 +1,15 @@
+/* NetTran: AMD.64 Release B-2008.09.SP5.HF2.26004 2012/07/19 */ 
+/* Created:  6/23/2016  12:28   */
+NetTran - Netlist Translator (R), AMD.64 Release B-2008.09.SP5.HF2.26004 2012/07/19
+
+  (C) Copyright 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005,
+                2006, 2007, 2008, 2009, 2010, 2011, 2012.
+  Synopsys, Inc.  All rights reserved.
+
+Options: -verilog netlist.v -outName netlist.sp -verilog-b1 VDD -verilog-b0 GND -outType spice 
+
+Reading "netlist.v" netlist ...
+Loading cell "RenameDispatch" ...
+Processing Hierarchy ...
+Writing Spice netlist ...
+Translation completed.

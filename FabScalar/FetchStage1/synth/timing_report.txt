@@ -1,0 +1,82 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : FetchStage1
+Version: H-2013.03-SP5-3
+Date   : Mon Jun 27 15:17:13 2016
+****************************************
+
+ # A fanout number of 1000 was used for high fanout net computations.
+
+Operating Conditions: tt1p05v25c   Library: saed32rvt_tt1p05v25c
+Wire Load Model Mode: enclosed
+
+  Startpoint: callPCID_i[4]
+              (input port clocked by clk)
+  Endpoint: ras/stack_reg_24__31_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  FetchStage1        35000                 saed32rvt_tt1p05v25c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.20       0.20
+  input external delay                     1.00       1.20 f
+  callPCID_i[4] (in)                       0.00       1.20 f
+  U4676/Y (AND2X1_RVT)                     0.11       1.31 f
+  U4677/Y (AND2X1_RVT)                     0.12       1.43 f
+  U4678/Y (AND2X1_RVT)                     0.12       1.54 f
+  U4679/Y (AND2X1_RVT)                     0.12       1.66 f
+  U4680/Y (AND2X1_RVT)                     0.12       1.78 f
+  U4681/Y (AND2X1_RVT)                     0.12       1.90 f
+  U4683/Y (AND2X1_RVT)                     0.12       2.01 f
+  U4685/Y (AND2X1_RVT)                     0.12       2.13 f
+  U4687/Y (AND2X1_RVT)                     0.12       2.24 f
+  U4689/Y (AND2X1_RVT)                     0.12       2.36 f
+  U4691/Y (AND2X1_RVT)                     0.12       2.47 f
+  U4693/Y (AND2X1_RVT)                     0.12       2.59 f
+  U4695/Y (AND2X1_RVT)                     0.12       2.70 f
+  U4697/Y (AND2X1_RVT)                     0.12       2.82 f
+  U4699/Y (AND2X1_RVT)                     0.12       2.93 f
+  U4701/Y (AND2X1_RVT)                     0.12       3.05 f
+  U4703/Y (AND2X1_RVT)                     0.12       3.17 f
+  U4705/Y (AND2X1_RVT)                     0.12       3.28 f
+  U4707/Y (AND2X1_RVT)                     0.13       3.41 f
+  U3892/Y (AND2X1_RVT)                     0.12       3.52 f
+  U3893/Y (AND2X1_RVT)                     0.11       3.63 f
+  U4714/Y (AND2X1_RVT)                     0.12       3.75 f
+  U4716/Y (AND2X1_RVT)                     0.12       3.86 f
+  U4718/Y (AND2X1_RVT)                     0.12       3.98 f
+  U4720/Y (AND2X1_RVT)                     0.11       4.09 f
+  U4722/Y (AND2X1_RVT)                     0.11       4.20 f
+  U4723/Y (XOR2X1_RVT)                     0.14       4.34 f
+  U3891/Y (NAND2X1_RVT)                    0.11       4.45 r
+  U4461/Y (INVX1_RVT)                      0.10       4.55 f
+  ras/U734/Y (AND2X1_RVT)                  0.15       4.69 f
+  ras/U733/Y (OR2X1_RVT)                   0.10       4.80 f
+  ras/stack_reg_24__31_/D (DFFX1_RVT)      0.05       4.85 f
+  data arrival time                                   4.85
+
+  clock clk (rise edge)                    5.00       5.00
+  clock network delay (ideal)              0.20       5.20
+  clock uncertainty                       -0.30       4.90
+  ras/stack_reg_24__31_/CLK (DFFX1_RVT)
+                                           0.00       4.90 r
+  library setup time                      -0.02       4.88
+  data required time                                  4.88
+  -----------------------------------------------------------
+  data required time                                  4.88
+  data arrival time                                  -4.85
+  -----------------------------------------------------------
+  slack (MET)                                         0.03
+
+
+1

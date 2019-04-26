@@ -1,0 +1,31 @@
+ 
+****************************************
+check_design summary:
+Version:     H-2013.03-SP5-3
+Date:        Thu Jun 23 11:55:57 2016
+****************************************
+
+                   Name                                            Total
+--------------------------------------------------------------------------------
+Inputs/Outputs                                                     17
+    Unconnected ports (LINT-28)                                    17
+--------------------------------------------------------------------------------
+
+Warning: In design 'RenameDispatch', port 'ctrlVerified_i' is not connected to any nets. (LINT-28)
+Warning: In design 'RenameDispatch', port 'updatedBranchMask0_i[3]' is not connected to any nets. (LINT-28)
+Warning: In design 'RenameDispatch', port 'updatedBranchMask0_i[2]' is not connected to any nets. (LINT-28)
+Warning: In design 'RenameDispatch', port 'updatedBranchMask0_i[1]' is not connected to any nets. (LINT-28)
+Warning: In design 'RenameDispatch', port 'updatedBranchMask0_i[0]' is not connected to any nets. (LINT-28)
+Warning: In design 'RenameDispatch', port 'updatedBranchMask1_i[3]' is not connected to any nets. (LINT-28)
+Warning: In design 'RenameDispatch', port 'updatedBranchMask1_i[2]' is not connected to any nets. (LINT-28)
+Warning: In design 'RenameDispatch', port 'updatedBranchMask1_i[1]' is not connected to any nets. (LINT-28)
+Warning: In design 'RenameDispatch', port 'updatedBranchMask1_i[0]' is not connected to any nets. (LINT-28)
+Warning: In design 'RenameDispatch', port 'updatedBranchMask2_i[3]' is not connected to any nets. (LINT-28)
+Warning: In design 'RenameDispatch', port 'updatedBranchMask2_i[2]' is not connected to any nets. (LINT-28)
+Warning: In design 'RenameDispatch', port 'updatedBranchMask2_i[1]' is not connected to any nets. (LINT-28)
+Warning: In design 'RenameDispatch', port 'updatedBranchMask2_i[0]' is not connected to any nets. (LINT-28)
+Warning: In design 'RenameDispatch', port 'updatedBranchMask3_i[3]' is not connected to any nets. (LINT-28)
+Warning: In design 'RenameDispatch', port 'updatedBranchMask3_i[2]' is not connected to any nets. (LINT-28)
+Warning: In design 'RenameDispatch', port 'updatedBranchMask3_i[1]' is not connected to any nets. (LINT-28)
+Warning: In design 'RenameDispatch', port 'updatedBranchMask3_i[0]' is not connected to any nets. (LINT-28)
+1

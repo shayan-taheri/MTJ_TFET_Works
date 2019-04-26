@@ -1,0 +1,64 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : Fetch1Fetch2
+Version: H-2013.03-SP5-3
+Date   : Tue Jun 21 14:52:54 2016
+****************************************
+
+Operating Conditions: tt1p05v25c   Library: saed32rvt_tt1p05v25c
+Wire Load Model Mode: enclosed
+
+  Startpoint: reset (input port clocked by clk)
+  Endpoint: instructionBundle_o_reg_9_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  Fetch1Fetch2       8000                  saed32rvt_tt1p05v25c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.20       0.20
+  input external delay                                    1.00       1.20 f
+  reset (in)                                              0.00       1.20 f
+  U1282/Y (OR2X1_RVT)                                     0.11       1.31 f
+  U1281/Y (OR2X1_RVT)                                     0.11       1.42 f
+  U1280/Y (INVX1_RVT)                                     0.09       1.52 r
+  U2135/Y (INVX1_RVT)                                     0.05       1.57 f
+  U2134/Y (INVX1_RVT)                                     0.11       1.68 r
+  U2171/Y (INVX1_RVT)                                     0.05       1.73 f
+  U2136/Y (INVX1_RVT)                                     0.13       1.86 r
+  U1277/Y (OR2X1_RVT)                                     0.07       1.93 r
+  U1276/Y (INVX1_RVT)                                     0.04       1.96 f
+  U2175/Y (INVX1_RVT)                                     0.10       2.07 r
+  U2172/Y (INVX1_RVT)                                     0.07       2.14 f
+  U2210/Y (INVX1_RVT)                                     0.13       2.27 r
+  U2196/Y (INVX1_RVT)                                     0.16       2.43 f
+  U495/Y (AND2X1_RVT)                                     0.21       2.64 f
+  U494/Y (OR2X1_RVT)                                      0.11       2.75 f
+  U1571/Y (INVX1_RVT)                                     0.09       2.84 r
+  U1572/Y (INVX1_RVT)                                     0.03       2.88 f
+  instructionBundle_o_reg_9_/D (DFFX1_RVT)                0.06       2.93 f
+  data arrival time                                                  2.93
+
+  clock clk (rise edge)                                   5.00       5.00
+  clock network delay (ideal)                             0.20       5.20
+  clock uncertainty                                      -0.30       4.90
+  instructionBundle_o_reg_9_/CLK (DFFX1_RVT)              0.00       4.90 r
+  library setup time                                     -0.02       4.88
+  data required time                                                 4.88
+  --------------------------------------------------------------------------
+  data required time                                                 4.88
+  data arrival time                                                 -2.93
+  --------------------------------------------------------------------------
+  slack (MET)                                                        1.95
+
+
+1

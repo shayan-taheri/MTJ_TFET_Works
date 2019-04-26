@@ -1,0 +1,64 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : RenameDispatch
+Version: H-2013.03-SP5-3
+Date   : Thu Jun 23 11:55:57 2016
+****************************************
+
+Operating Conditions: tt1p05v25c   Library: saed32rvt_tt1p05v25c
+Wire Load Model Mode: enclosed
+
+  Startpoint: reset (input port clocked by clk)
+  Endpoint: renamedPacket0_o_reg_0_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  RenameDispatch     8000                  saed32rvt_tt1p05v25c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.20       0.20
+  input external delay                                    1.00       1.20 f
+  reset (in)                                              0.00       1.20 f
+  U1750/Y (OR2X1_RVT)                                     0.11       1.31 f
+  U1749/Y (OR2X1_RVT)                                     0.11       1.42 f
+  U1748/Y (INVX1_RVT)                                     0.09       1.52 r
+  U2915/Y (INVX1_RVT)                                     0.05       1.57 f
+  U2914/Y (INVX1_RVT)                                     0.11       1.68 r
+  U2960/Y (INVX1_RVT)                                     0.06       1.74 f
+  U2916/Y (INVX1_RVT)                                     0.15       1.89 r
+  U1745/Y (OR2X1_RVT)                                     0.08       1.97 r
+  U1744/Y (INVX1_RVT)                                     0.06       2.03 f
+  U2964/Y (INVX1_RVT)                                     0.12       2.14 r
+  U2961/Y (INVX1_RVT)                                     0.07       2.22 f
+  U3013/Y (INVX1_RVT)                                     0.13       2.34 r
+  U3012/Y (INVX1_RVT)                                     0.14       2.48 f
+  U1740/Y (AND2X1_RVT)                                    0.18       2.66 f
+  U1739/Y (OR2X1_RVT)                                     0.11       2.77 f
+  U2331/Y (INVX1_RVT)                                     0.09       2.86 r
+  U2332/Y (INVX1_RVT)                                     0.03       2.90 f
+  renamedPacket0_o_reg_0_/D (DFFX1_RVT)                   0.06       2.95 f
+  data arrival time                                                  2.95
+
+  clock clk (rise edge)                                   5.00       5.00
+  clock network delay (ideal)                             0.20       5.20
+  clock uncertainty                                      -0.30       4.90
+  renamedPacket0_o_reg_0_/CLK (DFFX1_RVT)                 0.00       4.90 r
+  library setup time                                     -0.02       4.88
+  data required time                                                 4.88
+  --------------------------------------------------------------------------
+  data required time                                                 4.88
+  data arrival time                                                 -2.95
+  --------------------------------------------------------------------------
+  slack (MET)                                                        1.92
+
+
+1

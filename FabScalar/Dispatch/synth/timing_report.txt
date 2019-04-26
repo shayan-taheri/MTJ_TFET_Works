@@ -1,0 +1,69 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : Dispatch
+Version: H-2013.03-SP5-3
+Date   : Thu Jun 23 11:58:17 2016
+****************************************
+
+Operating Conditions: tt1p05v25c   Library: saed32rvt_tt1p05v25c
+Wire Load Model Mode: enclosed
+
+  Startpoint: renamedPacket2_i[136]
+              (input port clocked by clk)
+  Endpoint: backEndReady_o
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  Dispatch           8000                  saed32rvt_tt1p05v25c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.20       0.20
+  input external delay                     1.00       1.20 f
+  renamedPacket2_i[136] (in)               0.00       1.20 f
+  U66/Y (XOR2X1_RVT)                       0.20       1.40 f
+  U65/Y (XOR2X1_RVT)                       0.22       1.62 f
+  U61/Y (XOR2X1_RVT)                       0.22       1.84 f
+  U1509/Y (AND2X1_RVT)                     0.13       1.97 f
+  U1512/Y (OR2X1_RVT)                      0.12       2.09 f
+  U1513/Y (AND2X1_RVT)                     0.09       2.18 f
+  U1515/Y (OR2X1_RVT)                      0.13       2.31 f
+  U1518/Y (OR2X1_RVT)                      0.13       2.44 f
+  U1519/Y (AND2X1_RVT)                     0.09       2.53 f
+  U1521/Y (OR2X1_RVT)                      0.12       2.64 f
+  U1523/Y (AND2X1_RVT)                     0.12       2.76 f
+  U1524/Y (XOR2X1_RVT)                     0.19       2.95 f
+  U1464/Y (OR2X1_RVT)                      0.10       3.05 f
+  U1465/Y (OR2X1_RVT)                      0.11       3.16 f
+  U1467/Y (OR2X1_RVT)                      0.10       3.26 f
+  U1468/Y (AND2X1_RVT)                     0.09       3.35 f
+  U1469/Y (OR2X1_RVT)                      0.10       3.45 f
+  U70/Y (OR2X1_RVT)                        0.11       3.56 f
+  U69/Y (OR2X1_RVT)                        0.11       3.67 f
+  U68/Y (OR2X1_RVT)                        0.11       3.78 f
+  U1458/Y (INVX1_RVT)                      0.09       3.87 r
+  U67/Y (AND2X1_RVT)                       0.04       3.91 r
+  backEndReady_o (out)                     0.00       3.91 r
+  data arrival time                                   3.91
+
+  clock clk (rise edge)                    5.00       5.00
+  clock network delay (ideal)              0.20       5.20
+  clock uncertainty                       -0.30       4.90
+  output external delay                   -1.00       3.90
+  data required time                                  3.90
+  -----------------------------------------------------------
+  data required time                                  3.90
+  data arrival time                                  -3.91
+  -----------------------------------------------------------
+  slack (VIOLATED)                                   -0.01
+
+
+1

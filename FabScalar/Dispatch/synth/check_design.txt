@@ -1,0 +1,17 @@
+ 
+****************************************
+check_design summary:
+Version:     H-2013.03-SP5-3
+Date:        Thu Jun 23 11:58:17 2016
+****************************************
+
+                   Name                                            Total
+--------------------------------------------------------------------------------
+Inputs/Outputs                                                      3
+    Unconnected ports (LINT-28)                                     3
+--------------------------------------------------------------------------------
+
+Warning: In design 'Dispatch', port 'clk' is not connected to any nets. (LINT-28)
+Warning: In design 'Dispatch', port 'reset' is not connected to any nets. (LINT-28)
+Warning: In design 'Dispatch', port 'stall_i' is not connected to any nets. (LINT-28)
+1
