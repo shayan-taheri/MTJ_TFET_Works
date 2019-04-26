@@ -1,0 +1,36 @@
+Args: pva -p fsm -t spi -f KATAN_TFET_VML_p1.pvadir/pvaHDL.lis -o KATAN_TFET_VML_p1.pvadir
+
+Begin of pVA compiling on Sun Jan 17 14:30:13 2016	GTM/In-use: 1.7500/1.6792 MB
+
+Parsing '/lhome/shayan/KATAN_and_CML/Device_Model/PSU_TFET/InAs_TFET/InAs-NTFET-Lg-20nm.va'
+Parsing include file '/lhome/cad/synopsys/fsim/J-2014.09-1/include/constants.vams'
+Parsing include file '/lhome/cad/synopsys/fsim/J-2014.09-1/include/disciplines.vams'
+Parsing '/lhome/shayan/KATAN_and_CML/Device_Model/PSU_TFET/InAs_TFET/InAs-PTFET-Lg-20nm.va'
+Parsing include file '/lhome/cad/synopsys/fsim/J-2014.09-1/include/constants.vams'
+Parsing include file '/lhome/cad/synopsys/fsim/J-2014.09-1/include/disciplines.vams'
+
+End of pVA compiling on Sun Jan 17 14:30:13 2016	GTM/In-use: 1.8750/1.8152 MB
+
+
+End of build pVA DB on Sun Jan 17 14:30:13 2016	GTM/In-use: 3.6250/3.5260 MB
+
+*pvaI* Module (NTFET): 3 unexpanded port, 0 init, 11 behav, 5 contrib, 17/6 expr(s)
+*pvaI*        No DIS, 0/0 afCount, 1 MT, 8 NP, dlg
+*pvaI*        0 const-G and 0 const-C, Has switchBranch, 0 bypassOpt
+*pvaI*        variable NTFET:<VgsEff> defined but not used, deleted
+*pvaI*        variable NTFET:<out_file> defined but not used, deleted
+*pvaI*        generated 0 flow node(s) during compilation.
+*pvaI* Module (PTFET): 3 unexpanded port, 0 init, 11 behav, 5 contrib, 17/6 expr(s)
+*pvaI*        No DIS, 0/0 afCount, 1 MT, 8 NP, dlg
+*pvaI*        0 const-G and 0 const-C, Has switchBranch, 0 bypassOpt
+*pvaI*        variable PTFET:<VgsEff> defined but not used, deleted
+*pvaI*        variable PTFET:<out_file> defined but not used, deleted
+*pvaI*        generated 0 flow node(s) during compilation.
+
+End of pVA genC on Sun Jan 17 14:30:14 2016	GTM/In-use: 4.0000/3.7806 MB
+
+
+KATAN_TFET_VML.pvadir/pvaRTL_amd64.so is reused
+
+End of pVA elaboration on Sun Jan 17 14:30:14 2016	GTM/In-use: 4.0000/3.6547 MB
+

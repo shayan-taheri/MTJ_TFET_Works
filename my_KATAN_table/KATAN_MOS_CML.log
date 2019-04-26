@@ -1,0 +1,138 @@
+Copyright(c) 2003-2014 Synopsys, Inc.
+FineSimPro J-2014.09-1 RHEL64 (Compiled on Sep 15 2014 at 21:45:23 (US-Pacific))
+
+Hostname: vlsi5, Username: shayan, PID: 5118
+Tool Path: /lhome/cad/synopsys/fsim/J-2014.09-1/finesim/platform/amd64/finesim
+CPU model name	: Intel(R) Xeon(R) CPU E5-2690 0 @ 2.90GHz, Speed : 2899.998(MHz), Cache : 20480 KB
+
+Started at Thu Jan 14 03:28:16 2016
+Simulation Arguments : -o KATAN_MOS_CML KATAN_MOS_CML.sp 
+Working Directory: /lhome/shayan/my_KATAN
+Input File: KATAN_MOS_CML.sp
+
+INFO! read global configuration file (/lhome/cad/synopsys/fsim/J-2014.09-1/finesim.cfg)
+
+	</lhome/shayan/PTM-MG/modelfiles/lstp/20nfet.pm>
+	</lhome/shayan/PTM-MG/modelfiles/lstp/20pfet.pm>
+WARNING! duplicated model param 'bulkmod' (/lhome/shayan/PTM-MG/modelfiles/lstp/20nfet.pm:4)
+WARNING! duplicated model param 'bulkmod' (/lhome/shayan/PTM-MG/modelfiles/lstp/20pfet.pm:4)
+
+done
+
+**** Used Options:
+   post
+   captab
+****
+
+  Main Mode: promd
+Resource Usage for Parsing(self/cum): 0.1/0.1 sec, 177.7/177.7 MB
+
+License: FINESIM_LICENSE_MODE=3 
+License: Checked out FSPRO(1) successfully from 27000@niblick.cs.ucf.edu 
+
+Title: * Nettran: AMD.64 Release B-2008.09.SP5.HF2.26004 2012/07/19
+
+
+
+**** expand probe
+  post option matches with 7014 nodes and 231 sources (KATAN_MOS_CML.sp:810)
+****
+
+
+
+  # MOSFET   : 3582
+  # V Source : 231
+
+  TEMP=25
+Resource Usage for Circuit Elaboration(self/cum): 1.3/1.3 sec, 47.3/225.0 MB
+
+Generating MOS models ...
+  VDD=1
+  Level=72 Version=105.03
+Resource Usage for MOS Model(self/cum): 0.0/1.4 sec, 5.4/230.4 MB
+
+Reducing RC Network
+  # split fcap: 0
+No RC network reduced 
+Resource Usage for Circuit Reduction(self/cum): 0.0/1.4 sec, 0.0/230.4 MB
+
+Building Connectivity ...
+  Largest partition has 45 devices and 49 nodes .
+    Devices: m=45
+    Nodes with maximum connections:
+       katan:xu597.1(3)
+       katan:xu600.1(3)
+       katan:xu565.1(3)
+       katan:xu568.1(3)
+       katan:xu571.1(3)
+       katan:xu578.1(3)
+       katan:xu588.1(3)
+       katan:xu592.1(3)
+       katan:xu595.1(3)
+       katan:n137b(2)
+       katan:n137(2)
+       katan:n132b(2)
+       katan:n132(2)
+       katan:n366b(2)
+       katan:n366(2)
+       katan:n367b(2)
+       katan:n367(2)
+       katan:n368b(2)
+       katan:n368(2)
+       katan:n369b(2)
+
+Resource Usage for Connectivity Building(self/cum): 0.0/1.4 sec, 2.0/232.4 MB
+
+Building DB ...
+Resource Usage for DB Building(self/cum): 0.0/1.5 sec, 0.0/232.4 MB
+
+Initializing ...
+Resource Usage for Initialization(self/cum): 0.0/1.5 sec, 0.0/232.4 MB
+
+Preparing Outputs ...
+  # probed signals  : 7245
+  # printed signals : 1
+  # measures        : 1
+Resource Usage for Output Preparation(self/cum): 0.2/1.6 sec, 0.0/232.4 MB
+
+
+Building Matrices ...
+Resource Usage for Matrix Building(self/cum): 0.0/1.6 sec, -16.2/216.2 MB
+
+Starting DC Initialization ...
+    ic file 'KATAN_MOS_CML.ic'
+  DC converged
+End of DC Initialization
+Resource Usage for DC Initialization(self/cum): 0.2/1.8 sec, 0.0/216.2 MB
+
+Starting Transient Analysis ...
+    cap file 'KATAN_MOS_CML.cap'
+   0.256us (10.0 %) at Thu Jan 14 03:28:22 2016 (4 sec)
+   0.512us (20.0 %) at Thu Jan 14 03:28:25 2016 (3 sec)
+   0.768us (30.0 %) at Thu Jan 14 03:28:28 2016 (3 sec)
+   1.024us (40.0 %) at Thu Jan 14 03:28:32 2016 (4 sec)
+   1.281us (50.0 %) at Thu Jan 14 03:28:35 2016 (3 sec)
+   1.536us (60.0 %) at Thu Jan 14 03:28:38 2016 (3 sec)
+   1.792us (70.0 %) at Thu Jan 14 03:28:42 2016 (4 sec)
+   2.048us (80.0 %) at Thu Jan 14 03:28:45 2016 (3 sec)
+   2.304us (90.0 %) at Thu Jan 14 03:28:48 2016 (3 sec)
+   2.560us (100.0 %) at Thu Jan 14 03:28:52 2016 (4 sec)
+    finished at 2.560us
+    prt file 'KATAN_MOS_CML.pt0'
+    output file 'KATAN_MOS_CML.fsdb'
+
+Starting Post Processing ...
+
+     avgval= -2.8373e-04  from= 2.0000e-08  to= 2.7000e-08
+
+    measure file 'KATAN_MOS_CML.mt0'
+    # time points: 14575
+End of Transient Analysis                               
+Resource Usage for Transient Analysis(self/cum): 33.1/34.9 sec, 48.6/264.8 MB
+
+Ended at Thu Jan 14 03:28:52 2016
+
+Total CPU time: 34.9 seconds (0.01 hours)
+Total memory usage: peak= 264.8 MB, avg= 238.6 MB
+
+Total elapsed time: 36.0 seconds (0.01 hours)

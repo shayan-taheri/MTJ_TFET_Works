@@ -1,0 +1,4 @@
+Command line:
+finesim -np 16 -top_pid 37048 -o Katan_TFET_VML Katan_TFET_VML.sp 
+
+

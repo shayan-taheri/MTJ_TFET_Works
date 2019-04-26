@@ -1,0 +1,92 @@
+Mdi:ArrangeIcons
+ScopeSigMgr:loadpffile /lhome/shayan/my_KATAN/Katan_TFET_CML.fsdb 1 openonly
+# PF:1
+wm geometry .sigmgr 472x220+734+161
+wm geometry .sigmgr 472x220+795+154
+wm geometry .sigmgr 472x220+962+141
+wm geometry .sigmgr 472x220+1027+134
+wm geometry .sigmgr 472x220+1070+131
+wm geometry .sigmgr 472x220+1100+128
+wm geometry .sigmgr 472x220+1120+125
+wm geometry .sigmgr 472x220+1187+115
+wm geometry .sigmgr 472x220+1190+115
+wm geometry .sigmgr 472x220+1194+113
+wm geometry .sigmgr 472x220+1197+113
+wm geometry .sigmgr 472x220+1198+112
+wm geometry .sigmgr 472x220+1200+112
+wm geometry .sigmgr 472x220+1201+112
+wm geometry .sigmgr._PF:1 260x321+955+466
+wm geometry .sigmgr._PF:1 260x321+984+466
+wm geometry .sigmgr._PF:1 260x321+1039+466
+wm geometry .sigmgr._PF:1 260x321+1121+466
+wm geometry .sigmgr._PF:1 260x321+1189+466
+wm geometry .sigmgr._PF:1 260x321+1257+466
+wm geometry .sigmgr._PF:1 260x321+1305+466
+wm geometry .sigmgr._PF:1 260x321+1338+466
+wm geometry .sigmgr._PF:1 260x321+1358+466
+wm geometry .sigmgr._PF:1 260x321+1375+466
+wm geometry .sigmgr._PF:1 260x321+1389+466
+wm geometry .sigmgr._PF:1 260x321+1401+465
+wm geometry .sigmgr._PF:1 260x321+1402+465
+wm geometry .sigmgr._PF:1 260x321+1402+464
+wm geometry .sigmgr._PF:1 260x321+1402+462
+wm geometry .sigmgr._PF:1 260x321+1402+461
+wm geometry .sigmgr._PF:1 260x321+1402+459
+wm geometry .sigmgr._PF:1 260x321+1402+458
+wm geometry .sigmgr._PF:1 260x321+1402+455
+wm geometry .sigmgr._PF:1 260x321+1402+454
+wm geometry .sigmgr._PF:1 260x321+1402+452
+wm geometry .sigmgr._PF:1 260x321+1402+451
+wm geometry .sigmgr._PF:1 260x321+1402+444
+wm geometry .sigmgr._PF:1 260x321+1398+420
+wm geometry .sigmgr._PF:1 260x321+1392+383
+wm geometry .sigmgr._PF:1 260x321+1390+366
+wm geometry .sigmgr._PF:1 260x321+1388+355
+wm geometry .sigmgr._PF:1 260x321+1388+352
+wm geometry .sigmgr._PF:1 260x321+1386+348
+wm geometry .sigmgr._PF:1 260x321+1386+345
+pf:read PF:1 {v(c[0])} {v(c[1])} {v(c[2])} {v(c[3])} {v(c[4])} {v(c[5])} {v(c[6])} {v(c[7])} {v(c[8])} {v(c[9])}
+# WF:1:1 WF:1:2 WF:1:3 WF:1:4 WF:1:5 WF:1:6 WF:1:7 WF:1:8 WF:1:9 WF:1:10
+Graph addsignal {WF:1:1 WF:1:2 WF:1:3 WF:1:4 WF:1:5 WF:1:6 WF:1:7 WF:1:8 WF:1:9 WF:1:10} -region {new new new new new new new new new new} -yview {real(y) real(y) real(y) real(y) real(y) real(y) real(y) real(y) real(y) real(y)} -xview {real(x) real(x) real(x) real(x) real(x) real(x) real(x) real(x) real(x) real(x)} -tracehi {2 2 2 2 2 2 2 2 2 2}
+# Signal0 Signal1 Signal2 Signal3 Signal4 Signal5 Signal6 Signal7 Signal8 Signal9
+pf:read PF:1 v(cycle_254)
+# WF:1:11
+Graph addsignal WF:1:11 -region new -yview real(y) -xview real(x) -tracehi 2
+# Signal10
+wm geometry .sigmgr 472x220+1211+122
+wm geometry .sigmgr 472x220+0+0
+wm geometry .sigmgr 472x220+1211+122
+wm geometry .sigmgr 472x220+1211+94
+ScopeSigMgr:Unload 0 {{(1) Katan_TFET_CML.fsdb}}
+ScopeSigMgr:loadpffile /lhome/shayan/AES_Sim/netlist.fsdb 1 openonly
+# PF:2
+wm geometry .sigmgr._PF:2 260x321+984+460
+wm geometry .sigmgr._PF:2 260x321+1026+454
+wm geometry .sigmgr._PF:2 260x321+1220+432
+wm geometry .sigmgr._PF:2 260x321+1258+426
+wm geometry .sigmgr._PF:2 260x321+1288+421
+wm geometry .sigmgr._PF:2 260x321+1312+415
+wm geometry .sigmgr._PF:2 260x321+1330+410
+wm geometry .sigmgr._PF:2 260x321+1341+406
+wm geometry .sigmgr._PF:2 260x321+1352+404
+wm geometry .sigmgr._PF:2 260x321+1368+393
+wm geometry .sigmgr._PF:2 260x321+1370+393
+wm geometry .sigmgr._PF:2 260x321+1370+392
+wm geometry .sigmgr._PF:2 260x321+1370+391
+wm geometry .sigmgr._PF:2 260x321+1370+389
+wm geometry .sigmgr._PF:2 260x321+1370+388
+wm geometry .sigmgr._PF:2 260x321+1370+386
+GrXY:NewGraph
+# Graph1
+pf:read PF:2 {v(out[0])} {v(out[1])} {v(out[2])} {v(out[3])}
+# WF:2:1 WF:2:2 WF:2:3 WF:2:4
+Graph addsignal {WF:2:1 WF:2:2 WF:2:3 WF:2:4} -region {new new new new} -yview {real(y) real(y) real(y) real(y)} -xview {real(x) real(x) real(x) real(x)} -tracehi {2 2 2 2}
+# Signal0 Signal1 Signal2 Signal3
+Mdi:Resize 556 398
+Mdi:Move 5 5
+Mdi:Resize 811 591
+Mdi:Move 5 5
+Mdi:ArrangeIcons
+Graph:DSel
+Graph:Select Graph1
+Graph axisconfig {AxisY(3,0) AxisX(0)} -range {{0.39597770782434 -1.8001927219998} {7.24539n 438.017n}}

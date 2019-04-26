@@ -1,0 +1,4 @@
+$DATA1 SOURCE='FineSimPro' VERSION='J-2014.09-1'
+.TITLE '* Nettran: AMD.64 Release B-2008.09.SP5.HF2.26004 2012/07/19'
+         avgval       avgpower         temper         alter#
+    -1.9358e-06     0.0000e+00     2.5000e+01     1.0000e+00

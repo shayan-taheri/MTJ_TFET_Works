@@ -1,0 +1,116 @@
+Mdi:ArrangeIcons
+ScopeSigMgr:loadpffile /lhome/shayan/my_KATAN/KATAN_MOS_VML.fsdb 1 openonly
+# PF:1
+wm geometry .sigmgr 472x220+646+163
+wm geometry .sigmgr 472x220+978+133
+wm geometry .sigmgr 472x220+1122+118
+wm geometry .sigmgr 472x220+1206+110
+wm geometry .sigmgr 472x220+1298+94
+wm geometry .sigmgr 472x220+1325+89
+wm geometry .sigmgr 472x220+1406+69
+wm geometry .sigmgr 472x220+1409+69
+wm geometry .sigmgr 472x220+1410+69
+wm geometry .sigmgr 472x220+1410+68
+wm geometry .sigmgr 472x220+1410+66
+wm geometry .sigmgr 472x220+1410+65
+wm geometry .sigmgr 472x220+1410+63
+wm geometry .sigmgr._PF:1 260x321+1002+454
+wm geometry .sigmgr._PF:1 260x321+1060+444
+wm geometry .sigmgr._PF:1 260x321+1140+427
+wm geometry .sigmgr._PF:1 260x321+1266+400
+wm geometry .sigmgr._PF:1 260x321+1326+385
+wm geometry .sigmgr._PF:1 260x321+1366+376
+wm geometry .sigmgr._PF:1 260x321+1393+370
+wm geometry .sigmgr._PF:1 260x321+1421+365
+wm geometry .sigmgr._PF:1 260x321+1444+360
+wm geometry .sigmgr._PF:1 260x321+1458+357
+wm geometry .sigmgr._PF:1 260x321+1469+355
+wm geometry .sigmgr._PF:1 260x321+1478+353
+wm geometry .sigmgr._PF:1 260x321+1481+352
+wm geometry .sigmgr._PF:1 260x321+1483+352
+wm geometry .sigmgr._PF:1 260x321+1484+350
+wm geometry .sigmgr._PF:1 260x321+1486+350
+wm geometry .sigmgr._PF:1 260x321+1487+350
+pf:read PF:1 {v(c[0])} {v(c[1])} {v(c[2])} {v(c[3])} v(cycle_254)
+# WF:1:1 WF:1:2 WF:1:3 WF:1:4 WF:1:5
+Graph addsignal {WF:1:1 WF:1:2 WF:1:3 WF:1:4 WF:1:5} -region {new new new new new} -yview {real(y) real(y) real(y) real(y) real(y)} -xview {real(x) real(x) real(x) real(x) real(x)} -tracehi {2 2 2 2 2}
+# Signal0 Signal1 Signal2 Signal3 Signal4
+Mdi:ArrangeIcons
+wm geometry . 900x813+65+24
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+wm geometry . 1855x895+65+24
+Mdi:ArrangeIcons
+Mdi:Resize 1314 765
+Mdi:Move 5 5
+Graph:DSel
+Graph:Select Graph0
+Graph:DSel
+Graph:DSel
+Graph axisconfig {AxisY(4,0) AxisX(0)} -range {{0.83997317237183 -7.6505928394837} {2.53266u 2.55758u}}
+Graph:DSel
+Graph:DSel
+Graph axisconfig {AxisY(4,0) AxisX(0)} -range {{1.2989300780354 -36.010180668729} {2.54055722u 2.554752606u}}
+Graph axisconfig {AxisX(0) AxisY(0,0) AxisY(1,0) AxisY(2,0) AxisY(3,0) AxisY(4,0)} -range {all all all all all all} -zoomed {0 0 0 0 0 0}
+Graph:DSel
+Graph axisconfig {AxisY(4,0) AxisX(0)} -range {{0.68417105835898 -5.0036394525448} {2.5168u 2.56891u}}
+wm geometry .sigmgr 472x220+1420+73
+wm geometry .sigmgr 472x220+0+0
+wm geometry .sigmgr 472x220+1420+73
+wm geometry .sigmgr 472x220+1420+45
+ScopeSigMgr:Unload 0 {{(1) KATAN_MOS_VML.fsdb}}
+Graph0 delsignal Signal0
+Graph0 delsignal Signal1
+Graph0 delsignal Signal2
+Graph0 delsignal Signal3
+Graph0 delsignal Signal4
+Graph:DSel
+ScopeSigMgr:loadpffile /lhome/shayan/AES_All_Sims/MOS_VML.fsdb 1 openonly
+# PF:2
+pf:read PF:2 {v(out[0])} {v(out[1])} {v(out[2])} {v(out[3])}
+# WF:2:1 WF:2:2 WF:2:3 WF:2:4
+Graph addsignal {WF:2:1 WF:2:2 WF:2:3 WF:2:4} -region {new new new new} -yview {real(y) real(y) real(y) real(y)} -xview {real(x) real(x) real(x) real(x)} -tracehi {2 2 2 2}
+# Signal0 Signal1 Signal2 Signal3
+wm geometry .sigmgr._PF:2 260x321+1339+435
+wm geometry .sigmgr._PF:2 260x321+1459+433
+wm geometry .sigmgr._PF:2 260x321+1518+428
+wm geometry .sigmgr._PF:2 260x321+1524+423
+wm geometry .sigmgr._PF:2 260x321+1526+422
+wm geometry .sigmgr._PF:2 260x321+1530+420
+wm geometry .sigmgr._PF:2 260x321+1538+416
+wm geometry .sigmgr._PF:2 260x321+1556+410
+wm geometry .sigmgr._PF:2 260x321+1568+407
+Graph:DSel
+Graph:Select Graph0
+Graph axisconfig {AxisY(3,0) AxisX(0)} -range {{0.77434925595663 -0.61079079646351} {102.651n 6.34571n}}
+Graph axisconfig {AxisX(0) AxisY(0,0) AxisY(1,0) AxisY(2,0) AxisY(3,0)} -range {all all all all all} -zoomed {0 0 0 0 0}
+Graph:DSel
+Graph axisconfig {AxisY(3,0) AxisX(0)} -range {{0.77434925595663 -1.4082956751296} {109.37n 71.2959n}}
+Graph axisconfig {AxisX(0) AxisY(0,0) AxisY(1,0) AxisY(2,0) AxisY(3,0)} -range {all all all all all} -zoomed {0 0 0 0 0}
+Graph:DSel
+Graph axisconfig {AxisY(3,0) AxisX(0)} -range {{0.77434925595663 -3.6818841450112} {116.089n -373.278p}}
+Graph:DSel
+Graph axisconfig {AxisY(3,0) AxisX(0)} -range {{0.90672456393518 -21.3044858726} {58.8533n 92.6206n}}
+Graph:DSel
+pf:read PF:2 {v(out[4])} {v(out[5])} {v(out[6])} {v(out[7])}
+# WF:2:5 WF:2:6 WF:2:7 WF:2:8
+Graph addsignal {WF:2:5 WF:2:6 WF:2:7 WF:2:8} -region {new new new new} -yview {real(y) real(y) real(y) real(y)} -xview {real(x) real(x) real(x) real(x)} -tracehi {2 2 2 2}
+# Signal4 Signal5 Signal6 Signal7
+pf:read PF:2 v(clk)
+# WF:2:9
+Graph addsignal WF:2:9 -region new -yview real(y) -xview real(x) -tracehi 2
+# Signal8
+wm geometry .sigmgr 472x220+1420+45
+wm geometry .sigmgr 472x220+0+0
+wm geometry .sigmgr 472x220+1420+45
+wm geometry .sigmgr 472x220+1420+17
+ScopeSigMgr:Unload 0 {{(1) MOS_VML.fsdb}}
+Graph0 delsignal Signal0
+Graph0 delsignal Signal1
+Graph0 delsignal Signal2
+Graph0 delsignal Signal3
+Graph0 delsignal Signal4
+Graph0 delsignal Signal5
+Graph0 delsignal Signal6
+Graph0 delsignal Signal7
+Graph0 delsignal Signal8

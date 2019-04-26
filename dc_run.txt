@@ -1,0 +1,132 @@
+Running PRESTO HDLC
+Compiling source file ../rtl/aes_16.v
+Presto compilation completed successfully.
+Loading db file '/lhome/shayan/AES_16/models/saed32rvt_tt1p05v25c.db'
+Information: Using CCS timing libraries. (TIM-024)
+Loading db file '/lhome/cad/synopsys/syn/H-2013.03-SP5-3/libraries/syn/gtech.db'
+Loading db file '/lhome/cad/synopsys/syn/H-2013.03-SP5-3/libraries/syn/standard.sldb'
+  Loading link library 'saed32rvt_tt1p05v25c'
+  Loading link library 'gtech'
+Loading verilog file '/lhome/shayan/AES_16/rtl/aes_16.v'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Compiling source file /lhome/shayan/AES_16/rtl/aes_16.v
+
+Statistics for case statements in always block at line 17 in file
+	'/lhome/shayan/AES_16/rtl/aes_16.v'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|            24            |    auto/auto     |
+|           287            |    auto/auto     |
+===============================================
+
+Inferred memory devices in process
+	in routine aes_16 line 17 in file
+		'/lhome/shayan/AES_16/rtl/aes_16.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|       p10_reg       | Flip-flop |   4   |  Y  | N  | N  | N  | N  | N  | N  |
+|       p11_reg       | Flip-flop |   4   |  Y  | N  | N  | N  | N  | N  | N  |
+|       p00_reg       | Flip-flop |   4   |  Y  | N  | N  | N  | N  | N  | N  |
+|       k0_reg        | Flip-flop |   8   |  Y  | N  | N  | N  | N  | N  | N  |
+|       k1_reg        | Flip-flop |   8   |  Y  | N  | N  | N  | N  | N  | N  |
+|       p01_reg       | Flip-flop |   4   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Current design is now '/lhome/shayan/AES_16/rtl/aes_16.db:aes_16'
+Loaded 1 design.
+Current design is 'aes_16'.
+
+  Linking design 'aes_16'
+  Using the following designs and libraries:
+  --------------------------------------------------------------------------
+  aes_16                      /lhome/shayan/AES_16/rtl/aes_16.db
+  saed32rvt_tt1p05v25c (library) /lhome/shayan/AES_16/models/saed32rvt_tt1p05v25c.db
+
+Warning: The specified replacement character (_) is conflicting with the specified allowed or restricted character.   (UCN-4)
+Information: Evaluating DesignWare library utilization. (UISN-27)
+
+============================================================================
+| DesignWare Building Block Library  |         Version         | Available |
+============================================================================
+| Basic DW Building Blocks           | H-2013.03-DWBB_201303.5 |     *     |
+| Licensed DW Building Blocks        |                         |           |
+============================================================================
+
+
+
+  Beginning Pass 1 Mapping
+  ------------------------
+  Processing 'aes_16'
+  Ungrouping instance '*cell*3' 
+  Ungrouping instance '*cell*449' 
+
+  Updating timing information
+Information: Updating design information... (UID-85)
+
+  Beginning Mapping Optimizations  (Medium effort)
+  -------------------------------
+
+                                  TOTAL                                                
+   ELAPSED            WORST NEG   SETUP    DESIGN                             MIN DELAY
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT            COST   
+  --------- --------- --------- --------- --------- ------------------------- ---------
+    0:00:01    3481.8      0.00       0.0       0.0                                0.00
+    0:00:01    3481.8      0.00       0.0       0.0                                0.00
+    0:00:01    3481.8      0.00       0.0       0.0                                0.00
+    0:00:01    3481.8      0.00       0.0       0.0                                0.00
+    0:00:01    3481.8      0.00       0.0       0.0                                0.00
+    0:00:01    3481.8      0.00       0.0       0.0                                0.00
+    0:00:01    3481.8      0.00       0.0       0.0                                0.00
+    0:00:01    3481.8      0.00       0.0       0.0                                0.00
+    0:00:01    3481.8      0.00       0.0       0.0                                0.00
+    0:00:01    3481.8      0.00       0.0       0.0                                0.00
+    0:00:01    3481.8      0.00       0.0       0.0                                0.00
+    0:00:01    3481.8      0.00       0.0       0.0                                0.00
+
+
+
+  Beginning Delay Optimization Phase
+  ----------------------------------
+
+                                  TOTAL                                                
+   ELAPSED            WORST NEG   SETUP    DESIGN                             MIN DELAY
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT            COST   
+  --------- --------- --------- --------- --------- ------------------------- ---------
+    0:00:01    3481.8      0.00       0.0       0.0                                0.00
+    0:00:01    3481.8      0.00       0.0       0.0                                0.00
+    0:00:01    3481.8      0.00       0.0       0.0                                0.00
+
+
+  Beginning Area-Recovery Phase  (cleanup)
+  -----------------------------
+
+                                  TOTAL                                                
+   ELAPSED            WORST NEG   SETUP    DESIGN                             MIN DELAY
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT            COST   
+  --------- --------- --------- --------- --------- ------------------------- ---------
+    0:00:01    3481.8      0.00       0.0       0.0                                0.00
+    0:00:01    3481.8      0.00       0.0       0.0                                0.00
+    0:00:01    3466.3      0.00       0.0       0.0                                0.00
+    0:00:01    3455.5      0.00       0.0       0.0                                0.00
+    0:00:01    3449.4      0.00       0.0       0.0                                0.00
+    0:00:01    3447.1      0.00       0.0       0.0                                0.00
+    0:00:01    3445.5      0.00       0.0       0.0                                0.00
+    0:00:01    3445.5      0.00       0.0       0.0                                0.00
+    0:00:01    3445.5      0.00       0.0       0.0                                0.00
+    0:00:01    3445.5      0.00       0.0       0.0                                0.00
+    0:00:01    3445.5      0.00       0.0       0.0                                0.00
+    0:00:01    3445.5      0.00       0.0       0.0                                0.00
+    0:00:01    3445.5      0.00       0.0       0.0                                0.00
+    0:00:01    3445.5      0.00       0.0       0.0                                0.00
+    0:00:01    3445.5      0.00       0.0       0.0                                0.00
+
+  Optimization Complete
+  ---------------------
+Writing verilog file '/lhome/shayan/AES_16/output/netlist.v'.
+Writing ddc file '../output/design.ddc'.
+
+Thank you...
